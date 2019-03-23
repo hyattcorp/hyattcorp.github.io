@@ -57,6 +57,7 @@ h1,
 h2,
 h3 {
     font-weight: 300;
+   /*  color:#2290b2;*/
     text-transform: uppercase;
 }
 
@@ -143,7 +144,7 @@ a:hover,
 a:active {
     color: #555;
     border-bottom: 1px solid transparent;
-}
+} 
 
 /* ----- BUTTONS ----- */
 .btn:link,
@@ -206,9 +207,6 @@ header {
 .white{
  width: auto;
  height: 15%;
- width: 100%;
- position: absolute;
- top:19px;
  background-color:white;
 }
 .hero-text-box {
@@ -222,7 +220,7 @@ header {
 }
 
 .logo {
-    height: 80px;
+    height: 68px;
     width: auto;
     float: left;
     margin-top: 10px;
@@ -230,22 +228,24 @@ header {
 
 .logo-black { 
     display: none;
-    height: 50px;
+    height: 80px;
     width: auto;
     float: left;
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 /* Main navi */
 .main-nav {
-    float: right;
+    float:right;
     list-style: none;
-    margin-top: 37px;
+    margin-top: 35px;
+    
 }
 
 .main-nav li {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 46px;
+   
 }
 
 .main-nav li a:link,
@@ -296,131 +296,18 @@ header {
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     padding: 16px 0;
-    color: #555;
+    color:#2290b2;
 }
 
 .sticky .logo { display: none; }
 .sticky .logo-black { display: block; }
 
-/* ----------------------------------------------- */
-/* FEATURES */
-/* ----------------------------------------------- */
 
-.section-features .long-copy {
-    margin-bottom: 30px;
-}
-
-
-/* ----------------------------------------------- */
-/* MEALS */
-/* ----------------------------------------------- */
-
-.section-meals {
-    padding: 0;
-}
-
-.meals-showcase {
-    list-style: none;
-    width: 100%;
-}
-
-.meals-showcase li {
-    display: block;
-    float: left;
-    width: 25%;
-}
-
-.meal-photo {
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-    background-color: #000;
-}
-
-.meal-photo img {
-    opacity: 0.7;
-    width: 100%;
-    height: auto;
-    -webkit-transform: scale(1.15);
-    -ms-transform: scale(1.15);
-    transform: scale(1.15);
-    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
-    transition: transform 0.5s, opacity 0.5s;
-}
-
-.meal-photo img:hover {
-    opacity: 1;
-    -webkit-transform: scale(1.03);
-    -ms-transform: scale(1.03);
-    transform: scale(1.03);
-}
 
 
 
 /* ----------------------------------------------- */
-/* HOW IT WORKS SECTION */
-/* ----------------------------------------------- */
-
-.section-steps {
-    background-color: #f4f4f4;
-}
-
-.steps-box {
-    margin-top: 30px;
-}
-
-
-.steps-box:first-child {
-    text-align: right;
-    padding-right: 3%;
-}
-
-.steps-box:last-child {
-    text-align: left;
-    padding-left: 3%;
-    margin-top: 70px;
-}
-
-.app-screen {
-    width: 40%;
-}
-
-.works-step {
-    margin-bottom: 50px;
-}
-
-.works-step:last-of-type {
-    margin-bottom: 80px;
-}
-
-.works-step div {
-    color: #e67e22;
-    font-size: 150%;
-    height: 54px;
-    width: 54px;
-    border: 2px solid #e67e22;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    margin-right: 25px;
-    float: left;
-    padding: 5px;
-}
-
-.btn-app:link,
-.btn-app:visited {
-    border: 0;
-}
-
-.btn-app img {
-    height: 50px;
-    width: auto;
-    margin-right: 10px;
-}
-
-
-/* ----------------------------------------------- */
-/* CITIES */
+/* ABOUT */
 /* ----------------------------------------------- */
 
 .box img {
@@ -476,65 +363,6 @@ cite img {
     vertical-align: middle;
 }
 
-
-/* ----------------------------------------------- */
-/* SIGN UP */
-/* ----------------------------------------------- */
-
-.section-plans {
-    background-color: #f4f4f4;
-}
-
-.plan-box {
-    background-color: #fff;
-    border-radius: 5px;
-    width: 90%;
-    margin-left: 5%;
-    box-shadow: 0 2px 2px #efefef;
-}
-
-.plan-box div {
-    padding: 15px;
-    border-bottom: 1px solid #e8e8e8;
-}
-
-.plan-box div:first-child {
-    background-color: #fcfcfc;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.plan-box div:last-child {
-    text-align: center;
-    border: 0;
-}
-
-
-.plan-price {
-    font-size: 300%;
-    margin-bottom: 10px;
-    font-weight: 100;
-    color: #e67e22;
-}
-
-.plan-price span {
-    font-size: 30%;
-    font-weight: 300;
-}
-
-.plan-price-meal {
-    font-size: 80%;
-}
-
-.plan-box ul {
-    list-style: none;
-}
-
-.plan-box ul li {
-    padding: 5px 0;
-}
-
-
 /* ----------------------------------------------- */
 /* FORM */
 /* ----------------------------------------------- */
@@ -580,11 +408,6 @@ footer {
     float: left;
 }
 
-.social-links {
-    list-style: none;
-    float: right;
-}
-
 .footer-nav li,
 .social-links li {
     display: inline-block;
@@ -612,34 +435,7 @@ footer {
     color: #ddd;
 }
 
-.social-links li a:link,
-.social-links li a:visited {
-    font-size: 160%;
-}
 
-.ion-social-facebook,
-.ion-social-twitter,
-.ion-social-googleplus,
-.ion-social-instagram {
-    -webkit-transition: color 0.2s;
-    transition: color 0.2s;
-}
-
-.ion-social-facebook:hover {
-    color: #3b5998;
-}
-
-.ion-social-twitter:hover {
-    color: #00aced;
-}
-
-.ion-social-googleplus:hover {
-    color: #dd4b39;
-}
-
-.ion-social-instagram:hover {
-    color: #517fa4;
-}
 
 
 footer p {
@@ -682,3 +478,62 @@ iframe:focus {
 iframe[seamless] { 
   display: block;
 }
+
+/* ----------------------------------------------- */
+/* SOCIAL MEDIA */
+/* ----------------------------------------------- */
+/* Style all font awesome icons */
+
+
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color:#2290b2;
+}
+
+/* Twitter */
+.fa-twitter {
+  color:#2290b2;
+}
+
+
+.sticky .social-icon {
+    margin-top: 18px;
+}
+
+.social-icon {
+   
+   list-style: none;
+   width: 100%; /* Full-width */
+   background-color: #555; /* Dark-grey background */
+   overflow: auto; /* Overflow due to float */
+  
+    }
+.social-icon a {
+  float: right; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 8%; /* Equal width (5 icons with 20% width each = 100%) */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 26px; /* Increased font size */
+}
+
+.social-icon a:hover {
+  background-color: #000; /* Add a hover color */
+}
+
+.active {
+  background-color: #4CAF50; /* Add an active/current color */
+}
+.flip {
+  width: 45%;  
+    
+  }  
+

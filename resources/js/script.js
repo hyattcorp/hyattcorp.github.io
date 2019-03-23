@@ -84,3 +84,6 @@ $(document).ready(function() {
         }        
     });
 });
+  /* Flipboard*/
+
+ 
