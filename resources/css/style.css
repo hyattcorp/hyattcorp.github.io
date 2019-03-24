@@ -204,11 +204,6 @@ header {
     height: 100vh;
     background-attachment: fixed;
 }
-.white{
- width: auto;
- height: 15%;
- background-color:white;
-}
 .hero-text-box {
     position: absolute;
     width: 400px;
@@ -269,9 +264,9 @@ header {
 /* Mobile navi */
 .mobile-nav-icon {
     float: right;
-    margin-top: 30px;
+    margin-top: 60px;
     cursor: pointer;
-    
+    display: none;
 }
 
 .mobile-nav-icon i {
@@ -534,7 +529,9 @@ iframe[seamless] {
   background-color: #4CAF50; /* Add an active/current color */
 }
 .flip {
-  width: 45%;  
-    
-  }  
+  width: 20px; 
+}
+body .fa {
+    font-size: 20px;
+}
 

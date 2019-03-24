@@ -67,6 +67,8 @@
 	.hero-text-box {
         width: 100%;
         padding: 0 2%;
+         width: auto;
+        left: 60%;
     }
     
     body { font-size: 16px; }
@@ -101,7 +103,7 @@
         font-size: 100%;
     }
     
-    .sticky .main-nav { margin-top: 10px; }
+    .sticky .main-nav { margin-top: 10px; width: 60% }
 
     .sticky .main-nav li a:link,
     .sticky .main-nav li a:visited { padding: 10px 0; }
