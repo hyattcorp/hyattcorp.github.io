@@ -280,6 +280,7 @@ header {
 }
 
 
+
 /* Sticky navi */
 .sticky {
     position: fixed;
@@ -493,8 +494,8 @@ iframe[seamless] {
 
 /* Set a specific color for each brand */
 
-/* Facebook */
-.fa-facebook {
+/* Linkedin */
+.fa-linkedin {
   color:#2290b2;
 }
 

@@ -19,8 +19,7 @@
 			<div class = "white">
                 
             <nav class="sticky">
-                <div class="row">
-                       
+                <div class="row">    
                     <img src="resources/img/LogoChris.png" alt="Logo Hyatt Corporation" class="logo">
                     <a href="#main"><img src="resources/img/LogoChris.png" alt="Logo Hyatt Corporation" class="logo-black"></a>
                     
@@ -28,13 +27,11 @@
                             <li><a href="#main">Home</a></li>
                             <li><a href="#Mission">About</a></li>
                             <li><a href="#form">Contact</a></li>
-                            <li><a href="#"><i class="fa fa-search"></i></a></li> 
-                            <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
                             <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-                            <li><a data-flip-widget="ico" href="https://flipboard.com/topic/informationtechnology?utm_campaign=tools&utm_medium=follow&action=follow"><img src="resources/img/flipboard_mbsw.png" alt="Flipboard" class= "flip"/></a><script img src="https://cdn.flipboard.com/web/buttons/js/flbuttons.min.js" type="text/javascript"></script></li>  
-                         
-                        </ul>
-                        
+                            <li><a data-flip-widget="ico" href="https://flipboard.com/topic/informationtechnology?utm_campaign=tools&utm_medium=follow&action=follow"><img src="resources/img/flipboard_mbsw.png" alt="Flipboard" class= "flip"/></a><script img src="https://cdn.flipboard.com/web/buttons/js/flbuttons.min.js" type="text/javascript"></script></li>
+                            <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+                        </ul> 
                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
                 </div>
                
@@ -122,8 +119,60 @@
         
         <section class="section-form" id="form">
             
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSexa3kRNM7rtyVbGqixhkgIPrMY9D1ToyYg7LznHdNkmuUYHQ/viewform?embedded=true" width="640" height="1054" frameborder="0" marginheight="0" marginwidth="0" class="contact-form">Loading...</iframe>
-
+            <form method="POST" action="https://formspree.io/vicentecarreralaura3@gmail.com">
+                    <div class="row">
+                       <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="find-us">How did you find us?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="find-us" id="find-us">
+                                <option value="friends" selected>Friends</option>
+                                <option value="search">Search engine</option>
+                                <option value="ad">Advertisement</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Drop us a line</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send it!">
+                        </div>
+                    </div>
+                 <!--  <label for="fname">First Name</label>
+                <input type="email" name="email" placeholder="Your email or Phone">
+                <textarea name="message" placeholder="Test Message" ></textarea>
+                <button type="submit">Send</button>-->
+            
+            <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSexa3kRNM7rtyVbGqixhkgIPrMY9D1ToyYg7LznHdNkmuUYHQ/viewform?embedded=true" width="640" height="1054" frameborder="0" marginheight="0" marginwidth="0" class="contact-form">Loading...</iframe>-->
+          </form>
+         
         </section>
         
         <footer>

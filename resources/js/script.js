@@ -11,7 +11,7 @@ $(document).ready(function() {
             $('nav').removeClass('sticky');
         }
     }, {
-      offset: '60px;'
+      offset: '40px;'
     });
     
     
@@ -84,6 +84,7 @@ $(document).ready(function() {
         }        
     });
 });
-  /* Flipboard*/
+    
+    /* Contact Form */
 
  
