@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link href='http://fonts.googleapis.com/css?family=SciFly-Sans:100,300,400,300italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>HyattCorporation</title>
+    </head>
+    <body>
+        <header id="main">
+            
+			
+                
+            <nav class="sticky">
+                <div class="row">    
+                    <img src="resources/img/LogoChris.png" alt="Logo Hyatt Corporation" class="logo">
+                    <a href="#main"><img src="resources/img/LogoChris.png" alt="Logo Hyatt Corporation" class="logo-black"></a>
+                    
+                    <ul class="main-nav js--main-nav">
+                        <li><a href="#main">Home</a></li>
+                        <li><a href="#Mission">About</a></li>
+                        <li><a href="#form">Contact</a></li>
+                        <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                        <li><a data-flip-widget="ico" href="https://flipboard.com/topic/informationtechnology?utm_campaign=tools&utm_medium=follow&action=follow"><img src="resources/img/flipboard_mbsw.png" alt="Flipboard" class= "flip"/></a><script img src="https://cdn.flipboard.com/web/buttons/js/flbuttons.min.js" type="text/javascript"></script></li>
+                        <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+                    </ul> 
+                    <a class="mobile-nav-icon js--nav-icon">
+                        <img 
+                             width="20"  height="20" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAMAAABrrFhUAAABuVBMVEUAAAAikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLIikLJdzNBiAAAAknRSTlMAAQIDBAUGBwgJCgsNDg8QERITFBUWFxgZGhscHyAiIyQlJigqLC0uLzEyMzQ4OTs8PT9BREVGR0lLTE1OUFFSVVZYWVtcXWJkaGlsbW9wc3R1d3h5fH+AhYaJi4yPlJWXmJqbnqCio6Woq62vsLK1t7m6wMHDxcfIyszP0dPV19nc3uDi5Ojp6+3v8fP19/n7/Vuc7m4AAAOWSURBVBgZ7cFrQxNkAAXg8052SyzClQECBdMkU6QSJaxQKyxEoiAVoVIMMsC0JDQkUWFcRLbOL46byGXg953zPDAzMzMzMzMzMzPTlix770hdQTpc/VYMu4uf/DXLgjZ7tS6Cney/TgWLF+PIJ9pDFbnPA7apmqWQe0ls0Uwtc2XY5CuqWazEBs3Uk01hXS0VZRJYE5+jpBGsGaSoT7Gilqqex7DsAWW1YUkVdS0WAeijsAYgkqOwYeAgpUVwltLK0Etp9RiltFZMU1oXspTWgwVKu4KnlNaJO5R2Dpcp7UM0UlopUlSWDcAshfUBaKewNIAS6poKWDJAWaexrISqJgNWXKSoGqwKDyipCy8Uz1PQnwHrKnKUMxnFBtVZiplIYJN3MpRyN4Yt4iMU8l3Adg0zFHG/HHlFGicoYDiNne1vvjnNAjbRcyKJVwnRRLIgxYsCzMzMzMzMzMzMzMzMzMzMzMzMzMykhaJEsiDFi/BKpU39T1nAxq8eT2JHkZMPKWAojfzqMxTxdxm2iw9TSEfAFgcylHInhk2qshQzkcAGFTnKeRTFuuJ5CrobsCbcp6TvsaaNomqw4g2qmgxYNkBZp7GkhLqmAoB2CksDmKWwPiBFZYsBjZT2Jn6ktKP4g9LO4QmldWKB0q4gS2k9mKa0LoxSWit6Ka0eZymtHAcpLYJIjsJGAPRRWAOAKurKFmHJP5TVhmW1VPU8hhW/UVQzVsXnKek2XqilokwC65qpJ5vCBl9TTbYSm5yhlrlybFE9RyGjSWwT7aWKXEtAPqkbVJBtj2MniVODORa02WtHI9hdsrzmSF1BOvzu2zGYmZmZmZmZmZmZmZmZmZmZmZmZmZmokDr1w9DY46mCNHlvoO14MXZR2vGMBW+yJY78Xu+nhlzbHuTx5X+UkTmEraK/U0obNkv8SzE/B2wQf0w5N/FSZIyCurHuJ0r6GGtOUFN2H1ZEn1HUEFZ0UFYaS2I5yvoLS76gsAMAHlLYJaCYyjLAMUrbiw5KO4RblHYGk5R2CfOUdhk5SruGGUrrxjilfYsblPYJLlBaNdKUFkOMysYB3KawFgDHKGwvgDBDWb9gWRNllWJZeEhR3VhVRk1P9mDNeUoqx7peCvoIL4VByjmPjcJ1ivkMW7RSyUIa21Q+ooxbryGP0DRDCWNp7CC8359jgZvtrsBuQuqDlm86uwpSx4Xm9D6YmZmZmZmZmZmZKfsfD7DrWbriAcEAAAAASUVORK5CYII="/>
+                    </a>
+                   
+                </div>
+               
+            </nav>
+			
+            <div class="hero-text-box">
+                <h1>Quality IT Consultancy</h1>
+                <a class="btn btn-full js--scroll-to-plans" href="#form">Contact us</a>
+                <a class="btn btn-ghost js--scroll-to-start" href="#Mission">Show me more</a>
+            </div>
+            
+        </header>
+        
+        <section class="section-features js--section-features" id="Mission">
+            <div class="row">
+                <h2>Our mission &mdash; strategy + execution</h2>
+                 
+                <p class="long-copy">
+                    Hello, we're Hyatt Corporation, your it consultancy. We know you're always busy. No time for take care of your computer issues. So let us take care of that, we're really good at it, you have our word!
+                </p>
+            </div>
+            
+            <div class="row js--wp-1">
+                <div class="col span-1-of-4 box">
+                   
+             <img src="resources/img/1771368-128.png" alt="" class="logo">
+                    <h3>IT security and support</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, eius omittam est ne. Id quis epicuri pro. Sit ei autem tation. Eu rebum euismod est, eam ei mucius alienum. Id utamur integre eam, nam omnes voluptua ei.
+                    </p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="ion-ios-stopwatch-outline icon-big"></i>
+                    <h3>Disaster recovery</h3>
+                    <p>Lorem ipsum dolor sit amet, eius omittam est ne. Id quis epicuri pro. Sit ei autem tation. Eu rebum euismod est, eam ei mucius alienum. Id utamur integre eam, nam omnes voluptua ei.
+                    </p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="ion-ios-nutrition-outline icon-big"></i>
+                    <h3>Back ups</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, eius omittam est ne. Id quis epicuri pro. Sit ei autem tation. Eu rebum euismod est, eam ei mucius alienum. Id utamur integre eam, nam omnes voluptua ei.
+                    </p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="ion-ios-cart-outline icon-big"></i>
+                    <h3>Migrations</h3>
+                    <p>
+                       Lorem ipsum dolor sit amet, eius omittam est ne. Id quis epicuri pro. Sit ei autem tation. Eu rebum euismod est, eam ei mucius alienum. Id utamur integre eam, nam omnes voluptua ei.
+                    </p>
+                </div>
+
+            </div>   
+        </section>
+     
+                  
+        
+        
+        <section class="section-testimonials">
+            <div class="row">
+                <h2>Our customers can't live without us</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <blockquote>
+                       Lorem ipsum dolor sit amet, eius omittam est ne. Id quis epicuri pro. Sit ei autem tation. Eu rebum euismod est, eam ei mucius alienum. Id utamur integre eam, nam omnes voluptua ei.
+                        <cite><img src="resources/img/customer-1.jpg">Jonh Smith</cite>
+                    </blockquote>
+                </div>
+                <div class="col span-1-of-3">
+                    <blockquote>
+                       Lorem ipsum dolor sit amet, eius omittam est ne. Id quis epicuri pro. Sit ei autem tation. Eu rebum euismod est, eam ei mucius alienum. Id utamur integre eam, nam omnes voluptua ei.
+                        <cite><img src="resources/img/customer-2.jpg">Jonh Smith</cite>
+                    </blockquote>
+                </div>
+                <div class="col span-1-of-3">
+                    <blockquote>
+						Lorem ipsum dolor sit amet, eius omittam est ne. Id quis epicuri pro. Sit ei autem tation. Eu rebum euismod est, eam ei mucius alienum. Id utamur integre eam, nam omnes voluptua ei.
+                    <cite><img src="resources/img/customer-3.jpg">Jonh Smith</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-form" id="form">
+            <div class="row">
+                <h2>We're happy to hear from you</h2>
+            </div>
+            
+            <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSexa3kRNM7rtyVbGqixhkgIPrMY9D1ToyYg7LznHdNkmuUYHQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+  Name:<br>
+  <input type="text" name="entry.2005620554" id="entry.2005620554"><br>
+  Email:<br>
+  <input type="text" name="entry.1045781291" id="entry.1045781291"><br>
+  Address:<br>
+  <input type="text" name="entry.1065046570" id="entry.1065046570"><br>
+  Phone Number:<br>
+  <input type="text" name="entry.1166974658" id="entry.1166974658"><br>
+  Comments:<br>
+  <input type="text" name="entry.839337160" id="entry.839337160"><br>
+  <input type="submit" value="Submit">
+</form>
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(2000);
+  $('#gform').prepend('Your submission has been processed...');
+  });
+</script>
+         
+        </section>
+        
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="main-nav js--main-nav">
+                        <li><a href="#"><i class="fa fa-search"></i></a></li> 
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    This webpage was created Using "HTML5 and CSS3" by _ No copyrights here.<br>
+                    This webpage is for you! Because we truly think in you, our end user.
+                </p>
+                <p>
+                    Build with <i class="ion-ios-heart" style="color: #ea0000; padding: 0 3px;"></i> in the beautiful city of London, March 2019.
+                </p>
+            </div>
+        </footer>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>	
+    <script src="https://cdn.flipboard.com/web/buttons/js/flbuttons.min.js" type="text/javascript"></script>
+    
+    </body>  
+    
+</html>
