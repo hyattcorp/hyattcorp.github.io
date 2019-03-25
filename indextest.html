@@ -120,18 +120,20 @@
             </div>
         </section>
         
+		<script type="text/javascript">
+		$('#form').on('submit', function(e) {
+		$('#form *').fadeOut(2000);
+		$('#form').prepend('Your submission has been processed...');
+		});
+		
         <section class="section-form" id="form">
             <div class="row">
                 <h2>We're happy to hear from you</h2>
             </div>
 			<script type="text/javascript">var submitted=false;</script>
-		<script type="text/javascript">
-		$('#gform').on('submit', function(e) {
-		$('#gform *').fadeOut(2000);
-		$('#gform').prepend('Your submission has been processed...');
-		});
+		
 		</script>
-            <form name="form" id="form" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSexa3kRNM7rtyVbGqixhkgIPrMY9D1ToyYg7LznHdNkmuUYHQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+            <enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSexa3kRNM7rtyVbGqixhkgIPrMY9D1ToyYg7LznHdNkmuUYHQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
                     <div class="row">
                        <div class="col span-1-of-3">
                             <label for="name">Name</label>
