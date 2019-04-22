@@ -57,7 +57,7 @@ h1,
 h2,
 h3 {
     font-weight: 300;
-   /*  color:#2290b2;*/
+    color:#e67e22;
     text-transform: uppercase;
 }
 
@@ -307,7 +307,8 @@ header {
 /* ----------------------------------------------- */
 
 .box img {
-    width: 100%;
+    width: 50%;
+    margin-left: 25%;
     height: auto;
     margin-bottom: 15px;
 }
@@ -315,6 +316,8 @@ header {
 .city-feature {
     margin-bottom: 5px;
 }
+
+
 
 
 /* ----------------------------------------------- */
