@@ -24,6 +24,10 @@ body {
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
 }
+@font-face {
+  font-family: 'SciFly-Sans';
+  src: url('SciFly-Sans/SciFly-Sans.ttf');
+}
 
 .clearfix {zoom: 1;}
 .clearfix:after {
