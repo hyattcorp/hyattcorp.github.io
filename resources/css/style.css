@@ -14,14 +14,14 @@ Orange color: #e67e22
     box-sizing: border-box;
 }
 @font-face {
-  font-family: SciFly-Sans;
-  src: url('vendors/fonts/SciFly-Sans.ttf');
+  font-family:'SciFly-Sans';
+  src: url('fonts/SciFly-Sans.ttf');
 }
 html,
 body {
     background-color: #fff;
     color: #555;
-    font-family:SciFly-Sans;
+    font-family: 'SciFly-Sans';
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
