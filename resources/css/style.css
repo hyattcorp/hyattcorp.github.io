@@ -15,7 +15,7 @@ Orange color: #e67e22
 }
 @font-face {
   font-family: 'SciFly-Sans';
-  src: url('my-fonts/SciFly-Sans');
+  src: url('vendors/fonts/SciFly-Sans.ttf');
 }
 html,
 body {
@@ -103,6 +103,12 @@ h2:after {
     line-height: 145%;
     width: 70%;
     margin-left: 15%;
+}
+
+.short-copy {
+    line-height: 145%;
+    width: 80%;
+    margin-bottom: 25px;
 }
 
 .box p {
