@@ -15,7 +15,7 @@ Orange color: #e67e22
 }
 @font-face {
   font-family:'SciFly-Sans';
-  src: url('http://hyattcorp.co.uk/vendors/css/SciFly-Sans.ttf') format('ttf');
+  src: url('http://hyattcorp.co.uk/vendors/css/SciFly-Sans.ttf') format('truetype');
 }
 html,
 body {
