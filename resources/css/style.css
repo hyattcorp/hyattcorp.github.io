@@ -21,7 +21,7 @@ html,
 body {
     background-color: #fff;
     color: #555;
-    font-family: monospace, monospace;;
+    font-family: SciFly-Sans;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -103,7 +103,7 @@ h2:after {
     line-height: 145%;
     width: 70%;
     margin-left: 15%;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 
 .short-copy {
