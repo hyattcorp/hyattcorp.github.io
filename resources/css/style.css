@@ -21,8 +21,8 @@ html,
 body {
     background-color: #fff;
     color: #555;
-    font-family: sans-serif;
-    font-weight: 300;
+    font-family:sans-serif;
+    font-weight:300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
