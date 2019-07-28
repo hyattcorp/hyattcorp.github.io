@@ -128,7 +128,10 @@
                 <h2>We're happy to hear from you</h2>
             </div>
             
-          <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSexa3kRNM7rtyVbGqixhkgIPrMY9D1ToyYg7LznHdNkmuUYHQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+          <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSexa3kRNM7rtyVbGqixhkgIPrMY9D1ToyYg7LznHdNkmuUYHQ/formResponse?">
+
+		<!--  target="hidden_iframe" onsubmit="submitted=true;" -->
+		
               <div class="row">
                        <div class="col span-1-of-3">
                             <label for="name">Name</label>
@@ -176,9 +179,19 @@
                     </div>
           </form>
 		  
+		  <script type="text/javascript">
+    $('#devicesFormId').submit(function(event){
+       event.preventDefault()
+       $('#gform').attr('action', 'test');
+       //$(this).attr('action', 'test');
+    });
+</script>
+		  <!-- 
+		  
 		  <script type="text/javascript">var submitted=false;</script>
 
 		  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://hyattcorp.co.uk';}"></iframe>
+-->
 
          
         </section>
