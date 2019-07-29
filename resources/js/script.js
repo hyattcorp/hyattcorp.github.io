@@ -35,6 +35,7 @@ $(document).ready(function() {
             $('html,body').animate({
               scrollTop: target.offset().top
             }, 1000);
+			var scrollto = offset.top - 250
             return false;
           }
         }
