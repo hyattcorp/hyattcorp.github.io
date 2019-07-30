@@ -31,6 +31,8 @@ $(document).ready(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var hash = this.hash;
           var target = $(this.hash);
+		  var offset = $(':target').offset();
+          var scrollto = offset.top - 250; // minus fixed header height
           target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
           if (target.length) {
             $('html,body').animate({
