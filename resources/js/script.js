@@ -40,11 +40,11 @@ $('html, body').animate({scrollTop:scrollto}, 0);
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var hash = this.hash;
           var target = $(this.hash);
+		  var scrollToPosition = $(target).offset().top - 250;
           target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
           if (target.length) {
             $('html,body').animate({
-              scrollTop: target.offset().top
-            }, 1000, function () {
+              scrollTop: scrollToPosition }, 1000, function () {
                 location.hash = hash;
             });
             return false;
