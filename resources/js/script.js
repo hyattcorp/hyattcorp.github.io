@@ -24,27 +24,26 @@ $(document).ready(function() {
        $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000); 
     });
     
-/* New Navigation Scroll */
+/* New Navigation Scroll 
 var offset = $(':target').offset();
 var scrollto = offset.top - 250; // minus fixed header height
 $('html, body').animate({scrollTop:scrollto}, 0);
+/*	
 	
 	
 	
-	
-	
-    
-/* Navigation scroll
+
+/* Navigation scroll */
     $(function(){
       $('a[href*=#]:not([href=#])').click(function(){
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var hash = this.hash;
           var target = $(this.hash);
-		  var scrollToPosition = $(target).offset().top - 250;
           target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
           if (target.length) {
             $('html,body').animate({
-              scrollTop: scrollToPosition }, 1000, function () {
+              scrollTop: target.offset().top -250
+            }, 1000, function () {
                 location.hash = hash;
             });
             return false;
@@ -52,7 +51,7 @@ $('html, body').animate({scrollTop:scrollto}, 0);
         }
       });
     });
-  */  
+   
     
     /* Animations on scroll */
     $('.js--wp-1').waypoint(function(direction) {
