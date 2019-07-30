@@ -24,15 +24,22 @@ $(document).ready(function() {
        $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000); 
     });
     
+/* New Navigation Scroll */
+var offset = $(':target').offset();
+var scrollto = offset.top - 250; // minus fixed header height
+$('html, body').animate({scrollTop:scrollto}, 0);
+	
+	
+	
+	
+	
     
-/* Navigation scroll */
+/* Navigation scroll
     $(function(){
       $('a[href*=#]:not([href=#])').click(function(){
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var hash = this.hash;
           var target = $(this.hash);
-		  var offset = $(':target').offset();
-          var scrollto = offset.top - 250; // minus fixed header height
           target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
           if (target.length) {
             $('html,body').animate({
@@ -45,7 +52,7 @@ $(document).ready(function() {
         }
       });
     });
-    
+  */  
     
     /* Animations on scroll */
     $('.js--wp-1').waypoint(function(direction) {
