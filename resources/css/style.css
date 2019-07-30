@@ -53,6 +53,7 @@ section {
 
 .box {
     padding: 1%;
+    text-align: center;
 }
 
 /* ----- HEADINGS ----- */
@@ -305,8 +306,6 @@ header {
     z-index: 9999;
 }
 
-.sticky .main-nav { margin-top: 18px; }
-
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     padding: 16px 0;
@@ -326,7 +325,6 @@ header {
 
 .box img {
     width: 50%;
-    margin-left: 25%;
     height: auto;
     margin-bottom: 15px;
 }
