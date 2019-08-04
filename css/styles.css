@@ -694,7 +694,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .nav-item .nav-link {
-    padding: 0 0.75rem 0 0.75rem;
+    padding: 0.5rem 0.75rem 0.5rem 0.75rem;
     color: #2290b2;
     text-decoration: none;
     transition: all 0.2s ease;
