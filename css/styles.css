@@ -3,7 +3,6 @@
    Created: Mar 2019
    Description: Master CSS file
 */
-
 /*****************************************
 Table Of Contents:
 
@@ -13,7 +12,6 @@ Table Of Contents:
 04. Header
 05. Features
 ******************************************/
-
 /*****************************************
 Colors:
 
@@ -26,25 +24,20 @@ Colors:
 -Blue - #2290b2
 -Orange - #e67e22
 ******************************************/
-
-
 /******************************/
 /*     01. General Styles     */
 /******************************/
-
 @font-face {
     font-family: 'SciFly-Sans';
     src: url('../webfonts/SciFly-Sans.ttf') format('truetype');
 }
 
-body,
-html {
+body, html {
     width: 100%;
     height: 100%;
 }
 
-body,
-p {
+body, p {
     color: #555;
     font: 300 1.125rem sans-serif, 'SciFly-Sans', "Open Sans";
 }
@@ -73,9 +66,7 @@ p {
     padding-left: 1.25rem;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     font-weight: 300;
     color: #e67e22;
     text-transform: uppercase;
@@ -186,7 +177,7 @@ a.white {
 
 .btn-solid-lg:hover {
     background-color: transparent;
-    color: #0056b3;
+    color: #2290b2;
     text-decoration: none;
 }
 
@@ -280,25 +271,20 @@ a.white {
 }
 
 /* IE10+ hack to solve lower label text position compared to the rest of the browsers */
-@media screen and (-ms-high-contrast: active),
-screen and (-ms-high-contrast: none) {
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
     .label-control {
         top: 0.9375rem;
     }
 }
 
-.form-control-input:focus + .label-control,
-.form-control-input.notEmpty + .label-control,
-.form-control-textarea:focus + .label-control,
-.form-control-textarea.notEmpty + .label-control {
+.form-control-input:focus + .label-control, .form-control-input.notEmpty + .label-control, .form-control-textarea:focus + .label-control, .form-control-textarea.notEmpty + .label-control {
     top: 0.125rem;
     opacity: 1;
     font-size: 0.75rem;
     font-weight: 700;
 }
 
-.form-control-input,
-.form-control-select {
+.form-control-input, .form-control-select {
     display: block;
     /* needed for proper display of the label in Firefox, IE, Edge */
     width: 100%;
@@ -322,8 +308,7 @@ screen and (-ms-high-contrast: none) {
 }
 
 /* IE10+ hack to solve lower label text position compared to the rest of the browsers */
-@media screen and (-ms-high-contrast: active),
-screen and (-ms-high-contrast: none) {
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
     .form-control-input {
         padding-top: 1.25rem;
         padding-bottom: 0.75rem;
@@ -372,17 +357,13 @@ select::-ms-expand {
     transition: all 0.2s;
 }
 
-.form-control-input:focus,
-.form-control-select:focus,
-.form-control-textarea:focus {
+.form-control-input:focus, .form-control-select:focus, .form-control-textarea:focus {
     border: 1px solid #f1f1f8;
     outline: none;
     /* Removes blue border on focus */
 }
 
-.form-control-input:hover,
-.form-control-select:hover,
-.form-control-textarea:hover {
+.form-control-input:hover, .form-control-select:hover, .form-control-textarea:hover {
     border: 1px solid #f1f1f8;
 }
 
@@ -396,8 +377,7 @@ input[type='checkbox'] {
 }
 
 /* IE10+ hack to raise checkbox field position compared to the rest of the browsers */
-@media screen and (-ms-high-contrast: active),
-screen and (-ms-high-contrast: none) {
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
     input[type='checkbox'] {
         vertical-align: -9%;
     }
@@ -422,10 +402,7 @@ screen and (-ms-high-contrast: none) {
 }
 
 /* Form Success And Error Message Formatting */
-#cmsgSubmit.h3.text-center.tada.animated,
-#pmsgSubmit.h3.text-center.tada.animated,
-#cmsgSubmit.h3.text-center,
-#pmsgSubmit.h3.text-center {
+#cmsgSubmit.h3.text-center.tada.animated, #pmsgSubmit.h3.text-center.tada.animated, #cmsgSubmit.h3.text-center, #pmsgSubmit.h3.text-center {
     display: block;
     margin-bottom: 0;
     color: #555;
@@ -444,7 +421,6 @@ screen and (-ms-high-contrast: none) {
 }
 
 /* end of form success and error message formatting */
-
 /* Form Success And Error Message Animation - Animate.css */
 @-webkit-keyframes tada {
     from {
@@ -453,25 +429,19 @@ screen and (-ms-high-contrast: none) {
         transform: scale3d(1, 1, 1);
     }
 
-    10%,
-    20% {
+    10%, 20% {
         -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
         -ms-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
         transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
     }
 
-    30%,
-    50%,
-    70%,
-    90% {
+    30%, 50%, 70%, 90% {
         -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
         -ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
         transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
     }
 
-    40%,
-    60%,
-    80% {
+    40%, 60%, 80% {
         -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
         -ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
         transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
@@ -491,25 +461,19 @@ screen and (-ms-high-contrast: none) {
         transform: scale3d(1, 1, 1);
     }
 
-    10%,
-    20% {
+    10%, 20% {
         -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
         -ms-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
         transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
     }
 
-    30%,
-    50%,
-    70%,
-    90% {
+    30%, 50%, 70%, 90% {
         -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
         -ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
         transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
     }
 
-    40%,
-    60%,
-    80% {
+    40%, 60%, 80% {
         -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
         -ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
         transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
@@ -535,7 +499,6 @@ screen and (-ms-high-contrast: none) {
 }
 
 /* end of form success and error message animation - Animate.css */
-
 /* Fade-move Animation For Lightbox - Magnific Popup */
 /* at start */
 .my-mfp-slide-bottom .zoom-anim-dialog {
@@ -579,7 +542,6 @@ screen and (-ms-high-contrast: none) {
 }
 
 /* end of fade-move animation for lightbox - magnific popup */
-
 /* Fade Animation For Image Slider - Magnific Popup */
 @-webkit-keyframes fadeIn {
     from {
@@ -632,8 +594,6 @@ screen and (-ms-high-contrast: none) {
 }
 
 /* end of fade animation for image slider - magnific popup */
-
-
 /*************************/
 /*     02. Preloader     */
 /*************************/
@@ -681,10 +641,7 @@ screen and (-ms-high-contrast: none) {
 }
 
 @-webkit-keyframes sk-bouncedelay {
-
-    0%,
-    80%,
-    100% {
+    0%, 80%, 100% {
         -webkit-transform: scale(0);
     }
 
@@ -694,10 +651,7 @@ screen and (-ms-high-contrast: none) {
 }
 
 @keyframes sk-bouncedelay {
-
-    0%,
-    80%,
-    100% {
+    0%, 80%, 100% {
         -webkit-transform: scale(0);
         -ms-transform: scale(0);
         transform: scale(0);
@@ -709,7 +663,6 @@ screen and (-ms-high-contrast: none) {
         transform: scale(1.0);
     }
 }
-
 
 /**************************/
 /*     03. Navigation     */
@@ -751,7 +704,7 @@ screen and (-ms-high-contrast: none) {
 .navbar-custom .nav-item .nav-link:hover {
     border-bottom: 2px solid #e67e22;
     color: #2290b2;
-    }
+}
 
 .navbar-custom .nav-item .nav-link.active {
     color: #e67e22;
@@ -816,7 +769,6 @@ screen and (-ms-high-contrast: none) {
 }
 
 /* end of dropdown menu */
-
 .navbar-custom .social-icons {
     display: none;
 }
@@ -843,7 +795,6 @@ screen and (-ms-high-contrast: none) {
     display: inline-block;
     margin-right: 0.125rem;
 }
-
 
 /*********************/
 /*    04. Header     */
@@ -884,18 +835,17 @@ screen and (-ms-high-contrast: none) {
 
 .header .btn-solid-lg {
     margin-bottom: 1.25rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     text-align: center;
-    width: 9.938rem;
+    width: 11rem;
     height: 3.688rem;
 }
 
 .header-content .btncontainer {
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
 }
-
-
 
 /****************************/
 /*     05. Testimonials     */
@@ -916,8 +866,7 @@ screen and (-ms-high-contrast: none) {
     text-align: center;
 }
 
-.slider-1 .swiper-button-prev:focus,
-.slider-1 .swiper-button-next:focus {
+.slider-1 .swiper-button-prev:focus, .slider-1 .swiper-button-next:focus {
     /* even if you can't see it chrome you can see it on mobile device */
     outline: none;
 }
@@ -957,7 +906,6 @@ screen and (-ms-high-contrast: none) {
     margin-bottom: 0;
 }
 
-
 /************************/
 /*     05. Features     */
 /************************/
@@ -996,8 +944,7 @@ screen and (-ms-high-contrast: none) {
     transition: all 0.2s ease;
 }
 
-.tabs .nav-link.active,
-.tabs .nav-link:hover {
+.tabs .nav-link.active, .tabs .nav-link:hover {
     border-bottom: 0.1875rem solid #00c9db;
     background-color: transparent;
     color: #00c9db;
@@ -1036,8 +983,7 @@ screen and (-ms-high-contrast: none) {
     vertical-align: top;
 }
 
-.tabs .card .card-icon .fas,
-.tabs .card .card-icon .far {
+.tabs .card .card-icon .fas, .tabs .card .card-icon .far {
     color: #fff;
     font-size: 1.75rem;
     line-height: 3.5rem;
@@ -1106,7 +1052,6 @@ screen and (-ms-high-contrast: none) {
 .tabs #tab-3 img {
     margin: 0 auto 3rem auto;
 }
-
 
 /*********************/
 /*     07. Video     */
@@ -1213,8 +1158,6 @@ screen and (-ms-high-contrast: none) {
 }
 
 /* end of video play button */
-
-
 /*************************/
 /*     09. Details 1     */
 /*************************/
@@ -1242,7 +1185,6 @@ screen and (-ms-high-contrast: none) {
     height: 100vh;
 }
 
-
 /*************************/
 /*     10. Details 2     */
 /*************************/
@@ -1263,7 +1205,6 @@ screen and (-ms-high-contrast: none) {
 .basic-3 .btn-solid-reg {
     margin-top: 0.5rem;
 }
-
 
 /**********************************/
 /*     11. Details Lightboxes     */
@@ -1343,7 +1284,6 @@ screen and (-ms-high-contrast: none) {
     color: #f1f1f8;
 }
 
-
 /***************************/
 /*     12. Screenshots     */
 /***************************/
@@ -1363,14 +1303,12 @@ screen and (-ms-high-contrast: none) {
     text-align: center;
 }
 
-.slider-2 .swiper-button-prev,
-.slider-2 .swiper-button-next {
+.slider-2 .swiper-button-prev, .slider-2 .swiper-button-next {
     top: 50%;
     width: 1.125rem;
 }
 
-.slider-2 .swiper-button-prev:focus,
-.slider-2 .swiper-button-next:focus {
+.slider-2 .swiper-button-prev:focus, .slider-2 .swiper-button-next:focus {
     /* even if you can't see it chrome you can see it on mobile device */
     outline: none;
 }
@@ -1386,7 +1324,6 @@ screen and (-ms-high-contrast: none) {
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E");
     background-size: 1.125rem 1.75rem;
 }
-
 
 /************************/
 /*     13. Download     */
@@ -1415,7 +1352,6 @@ screen and (-ms-high-contrast: none) {
     margin-right: 0.5rem;
     margin-bottom: 1.25rem;
 }
-
 
 /**************************/
 /*     18. Statistics     */
@@ -1448,7 +1384,6 @@ screen and (-ms-high-contrast: none) {
     vertical-align: middle;
 }
 
-
 /***********************/
 /*     16. Contact     */
 /***********************/
@@ -1472,8 +1407,7 @@ screen and (-ms-high-contrast: none) {
     text-align: center;
 }
 
-.form .list-unstyled .fas,
-.form .list-unstyled .fab {
+.form .list-unstyled .fas, .form .list-unstyled .fab {
     margin-right: 0.5rem;
     font-size: 0.875rem;
     color: #00c9db;
@@ -1482,7 +1416,6 @@ screen and (-ms-high-contrast: none) {
 .form .list-unstyled .fa-phone {
     vertical-align: 3%;
 }
-
 
 /**********************/
 /*     16. Footer     */
@@ -1534,7 +1467,6 @@ screen and (-ms-high-contrast: none) {
     color: #00c9db;
 }
 
-
 /*************************/
 /*     17. Copyright     */
 /*************************/
@@ -1549,7 +1481,6 @@ screen and (-ms-high-contrast: none) {
     color: #f1f1f8;
     opacity: 0.6;
 }
-
 
 /**********************************/
 /*     18. Back To Top Button     */
@@ -1571,7 +1502,6 @@ a.back-to-top {
 a:hover.back-to-top {
     background-color: #e67e22;
 }
-
 
 /***************************/
 /*     19. Extra Pages     */
@@ -1647,22 +1577,17 @@ a:hover.back-to-top {
     background-color: #f9fafc;
 }
 
-
 /*****************************/
 /*     20. Media Queries     */
 /*****************************/
 /* min-width width 400px */
 @media (min-width: 360px) {
-
-    /* General Styles */
-    .p-heading {
+    /* General Styles */ .p-heading {
         margin-right: auto;
         margin-left: auto;
     }
 
     /* end of general styles */
-
-
     /* Navigation */
     .navbar-custom {
         /* padding: 2.125rem 1.5rem 2.125rem 2rem; */
@@ -1702,10 +1627,9 @@ a:hover.back-to-top {
     }
 
     /* end of navigation */
-
-
     /* Header */
-    .header {}
+    .header {
+    }
 
     .header .header-content {
         padding-top: 11rem;
@@ -1716,8 +1640,6 @@ a:hover.back-to-top {
     }
 
     /* end of header */
-
-
     /* Testimonials */
     .slider-1 .swiper-button-prev {
         left: 1rem;
@@ -1732,16 +1654,13 @@ a:hover.back-to-top {
     }
 
     /* end of testimonials */
-
-
     /* Features */
     .tabs .card .card-icon {
         width: 4.5rem;
         height: 4.5rem;
     }
 
-    .tabs .card .card-icon .fas,
-    .tabs .card .card-icon .far {
+    .tabs .card .card-icon .fas, .tabs .card .card-icon .far {
         font-size: 2.25rem;
         line-height: 4.5rem;
     }
@@ -1789,16 +1708,12 @@ a:hover.back-to-top {
     }
 
     /* end of features */
-
-
     /* Details Lightboxes */
     .lightbox-basic {
         padding: 3rem 3rem;
     }
 
     /* end of details lightboxes */
-
-
     /* Screenshots */
     .slider-2 .swiper-button-prev {
         width: 1.375rem;
@@ -1811,8 +1726,6 @@ a:hover.back-to-top {
     }
 
     /* end of screenshots */
-
-
     /* Contact */
     .form .list-unstyled li {
         display: inline-block;
@@ -1825,8 +1738,6 @@ a:hover.back-to-top {
     }
 
     /* end of contact */
-
-
     /* Extra Pages */
     .ex-header {
         padding-top: 11rem;
@@ -1847,20 +1758,15 @@ a:hover.back-to-top {
 }
 
 /* end of min-width width 400px */
-
 /* Min-width width 768px */
 @media (min-width: 768px) {
-
-    /* General Styles */
-    .p-heading {
+    /* General Styles */ .p-heading {
         width: 44%;
         margin-right: auto;
         margin-left: auto;
     }
 
     /* end of general styles */
-
-
     /* Navigation */
     .navbar-custom {
         padding: 0.5rem 2rem 0.5rem 2rem;
@@ -1900,10 +1806,9 @@ a:hover.back-to-top {
     }
 
     /* end of navigation */
-
-
     /* Header */
-    .header {}
+    .header {
+    }
 
     .header .header-content {
         padding-top: 11rem;
@@ -1914,8 +1819,6 @@ a:hover.back-to-top {
     }
 
     /* end of header */
-
-
     /* Testimonials */
     .slider-1 .swiper-button-prev {
         left: 1rem;
@@ -1930,16 +1833,13 @@ a:hover.back-to-top {
     }
 
     /* end of testimonials */
-
-
     /* Features */
     .tabs .card .card-icon {
         width: 4.5rem;
         height: 4.5rem;
     }
 
-    .tabs .card .card-icon .fas,
-    .tabs .card .card-icon .far {
+    .tabs .card .card-icon .fas, .tabs .card .card-icon .far {
         font-size: 2.25rem;
         line-height: 4.5rem;
     }
@@ -1987,16 +1887,12 @@ a:hover.back-to-top {
     }
 
     /* end of features */
-
-
     /* Details Lightboxes */
     .lightbox-basic {
         padding: 3rem 3rem;
     }
 
     /* end of details lightboxes */
-
-
     /* Screenshots */
     .slider-2 .swiper-button-prev {
         width: 1.375rem;
@@ -2009,8 +1905,6 @@ a:hover.back-to-top {
     }
 
     /* end of screenshots */
-
-
     /* Contact */
     .form .list-unstyled li {
         display: inline-block;
@@ -2023,8 +1917,6 @@ a:hover.back-to-top {
     }
 
     /* end of contact */
-
-
     /* Extra Pages */
     .ex-header {
         padding-top: 11rem;
@@ -2045,13 +1937,9 @@ a:hover.back-to-top {
 }
 
 /* end of min-width width 768px */
-
-
 /* Min-width width 992px */
 @media (min-width: 992px) {
-
-    /* Navigation */
-    .navbar-custom .social-icons {
+    /* Navigation */ .navbar-custom .social-icons {
         display: block;
         margin-left: 0.5rem;
     }
@@ -2081,16 +1969,12 @@ a:hover.back-to-top {
     }
 
     /* end of navigation */
-
-
     /* General Styles */
     .p-heading {
         width: 70%;
     }
 
     /* end of general styles */
-
-
     /* Header */
     .header .header-content {
         padding-top: 13rem;
@@ -2103,8 +1987,6 @@ a:hover.back-to-top {
     }
 
     /* end of header */
-
-
     /* Features */
     .tabs .card-body {
         padding: 1rem 0 1.5rem 0;
@@ -2114,8 +1996,7 @@ a:hover.back-to-top {
         text-align: right;
     }
 
-    .tabs #tab-1 .card.left-pane .text-wrapper,
-    .tabs #tab-1 .card.right-pane .text-wrapper {
+    .tabs #tab-1 .card.left-pane .text-wrapper, .tabs #tab-1 .card.right-pane .text-wrapper {
         width: 68%;
     }
 
@@ -2153,8 +2034,6 @@ a:hover.back-to-top {
     }
 
     /* end of features */
-
-
     /* Video */
     .basic-1 .image-container {
         max-width: 53.125rem;
@@ -2163,8 +2042,6 @@ a:hover.back-to-top {
     }
 
     /* end of video */
-
-
     /* Details 1 */
     .basic-2 img {
         width: 50%;
@@ -2177,8 +2054,6 @@ a:hover.back-to-top {
     }
 
     /* end of details 1 */
-
-
     /* Details 2 */
     .basic-3 .text-container {
         margin-top: 2.5rem;
@@ -2186,8 +2061,6 @@ a:hover.back-to-top {
     }
 
     /* end of details 2 */
-
-
     /* Details Lightboxes */
     .lightbox-basic img {
         margin-bottom: 0;
@@ -2199,16 +2072,12 @@ a:hover.back-to-top {
     }
 
     /* end of details lightboxes */
-
-
     /* Screenshots */
     .slider-2 .swiper-container {
         width: 92%;
     }
 
     /* end of screenshots */
-
-
     /* Download */
     .basic-4 {
         padding-top: 6.75rem;
@@ -2221,8 +2090,6 @@ a:hover.back-to-top {
     }
 
     /* end of download */
-
-
     /* Statistics */
     .counter {
         padding-top: 6rem;
@@ -2240,8 +2107,6 @@ a:hover.back-to-top {
     }
 
     /* end of statistics */
-
-
     /* Extra Pages */
     .ex-header h1 {
         width: 80%;
@@ -2261,30 +2126,20 @@ a:hover.back-to-top {
 }
 
 /* end of min-width width 992px */
-
-
 /* Min-width width 1200px */
 @media (min-width: 1200px) {
-
-    /* Navigation */
-    .navbar-custom {
+    /* Navigation */ .navbar-custom {
         /*padding: 2.125rem 5rem 2.125rem 5rem;/*
 	}
 
 	.navbar-custom.top-nav-collapse {
         padding: 0.5rem 5rem 0.5rem 5rem;
 	}
-	/* end of navigation */
-
-
-        /* General Styles */
-        .p-heading {
+	/* end of navigation *//* General Styles */ .p-heading {
             width: 70%;
         }
 
         /* end of general styles */
-
-
         /* Header */
         .header .text-container {
             margin-top: 7.5rem;
@@ -2296,8 +2151,6 @@ a:hover.back-to-top {
         }
 
         /* end of header */
-
-
         /* Features */
         .tabs {
             padding-bottom: 6.5rem;
@@ -2311,8 +2164,7 @@ a:hover.back-to-top {
             margin-bottom: 0.75rem;
         }
 
-        .tabs #tab-1 .card.left-pane .text-wrapper,
-        .tabs #tab-1 .card.right-pane .text-wrapper {
+        .tabs #tab-1 .card.left-pane .text-wrapper, .tabs #tab-1 .card.right-pane .text-wrapper {
             width: 73%;
         }
 
@@ -2360,8 +2212,6 @@ a:hover.back-to-top {
         }
 
         /* end of features */
-
-
         /* Details 1 */
         .basic-2 .text-container {
             margin-top: 4.5rem;
@@ -2370,8 +2220,6 @@ a:hover.back-to-top {
         }
 
         /* end of details 1 */
-
-
         /* Details 2 */
         .basic-3 .text-container {
             margin-top: 4.5rem;
@@ -2380,8 +2228,6 @@ a:hover.back-to-top {
         }
 
         /* end of details 2 */
-
-
         /* Download */
         .basic-4 .text-container {
             margin-top: 11rem;
@@ -2392,8 +2238,6 @@ a:hover.back-to-top {
         }
 
         /* end of download */
-
-
         /* Footer */
         .footer .footer-col {
             width: 90%;
@@ -2410,8 +2254,6 @@ a:hover.back-to-top {
         }
 
         /* end of footer */
-
-
         /* Extra Pages */
         .ex-header h1 {
             width: 60%;
