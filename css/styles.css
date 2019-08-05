@@ -1428,6 +1428,7 @@ input[type='checkbox'] {
 
 .footer .footer-col {
     margin-bottom: 2.25rem;
+    text-align: center;
 }
 
 .footer h4 {
