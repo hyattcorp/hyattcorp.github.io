@@ -1165,6 +1165,7 @@ input[type='checkbox'] {
     padding-top: 8rem;
     padding-bottom: 3.5rem;
     background-color: #fff;
+    text-align: center;
 }
 
 .basic-2 img {
@@ -1509,8 +1510,12 @@ a:hover.back-to-top {
 .ex-header {
     padding-top: 8rem;
     padding-bottom: 5rem;
-    background: linear-gradient(to bottom right, #2c1a7e, #5557db);
+    /*background: linear-gradient(to bottom right, #fff, #e67e22);*/
     text-align: center;
+}
+
+.ex-header h1 {
+    font-size: 6rem
 }
 
 .ex-basic-1 {

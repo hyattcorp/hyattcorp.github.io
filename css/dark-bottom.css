@@ -149,11 +149,11 @@
 .cc_container .cc_btn,
 .cc_container .cc_btn:visited {
     color: #000;
-    background-color: #f1d600;
+    background-color: #e67e22;
     transition: background 200ms ease-in-out, color 200ms ease-in-out, box-shadow 200ms ease-in-out;
     -webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out, box-shadow 200ms ease-in-out;
     border-radius: 5px;
-    -webkit-border-radius: 5px
+    -webkit-border-radius: 5px;
 }
 
 .cc_container .cc_btn:hover,
@@ -165,13 +165,13 @@
 .cc_container a,
 .cc_container a:visited {
     text-decoration: none;
-    color: #31a8f0;
-    transition: 200ms color
+    color: #2290b2;
+    transition: 200ms color;
 }
 
 .cc_container a:hover,
 .cc_container a:active {
-    color: #b2f7ff
+    color: #e67e22;
 }
 
 @-webkit-keyframes slideUp {
