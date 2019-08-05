@@ -148,7 +148,7 @@
 
 .cc_container .cc_btn,
 .cc_container .cc_btn:visited {
-    color: #000;
+    color: #fff;
     background-color: #e67e22;
     transition: background 200ms ease-in-out, color 200ms ease-in-out, box-shadow 200ms ease-in-out;
     -webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out, box-shadow 200ms ease-in-out;
