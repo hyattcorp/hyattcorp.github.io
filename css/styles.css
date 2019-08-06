@@ -1190,7 +1190,7 @@ input[type='checkbox'] {
 }
 
 .basic-2.who-we-are {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /*************************/
