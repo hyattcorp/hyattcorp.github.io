@@ -799,11 +799,18 @@ input[type='checkbox'] {
 /*********************/
 /*    04. Header     */
 /*********************/
+
+.parallax-window {
+  height: 100vh;
+  background: transparent;
+}
+
+/*disabled for parallax*/
 .header {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/header-background.png') center right no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/header-background.png') center right no-repeat; */
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+    /* height: 100vh; */
 }
 
 .header .header-content {
@@ -1976,7 +1983,7 @@ a:hover.back-to-top {
         /* end of general styles */
         /* Header */
         .header .text-container {
-            margin-top: 7.5rem;
+            margin-top: 2.5rem;
             margin-left: 2.5rem;
         }
 
