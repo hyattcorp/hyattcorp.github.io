@@ -800,9 +800,21 @@ input[type='checkbox'] {
 /*    04. Header     */
 /*********************/
 
+/* Parallax */
 .parallax-window {
   height: 100vh;
   background: transparent;
+}
+
+/* Gradient for parallax */
+.gradient {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: -99;
+background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
 }
 
 /*disabled for parallax*/
