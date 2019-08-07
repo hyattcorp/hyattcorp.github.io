@@ -207,7 +207,7 @@
         margin = this.imageHeight - imageHeightMin;
         
         /* percentage of screen height offset in px */
-        var pctoffsety = (winHeight / 100) * 9
+        var pctoffsety = (winHeight / 100) * 6
 
         if (this.positionY == 'top') {
           this.offsetBaseTop = imageOffsetMin;
