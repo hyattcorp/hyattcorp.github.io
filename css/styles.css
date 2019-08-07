@@ -2068,8 +2068,8 @@ a:hover.back-to-top {
         /* Details 1 */
         .basic-2 .text-container {
             margin-top: 4.5rem;
-            margin-left: 4rem;
-            margin-right: 1.5rem;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         /* end of details 1 */
