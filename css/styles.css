@@ -835,7 +835,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
 .header .text-container {
     margin-bottom: 3rem;
     min-width: 280px;
-    width: 400px;
+    max-width: 400px;
     position: absolute;
     top: 30%;
     right: 5%;
@@ -1613,6 +1613,14 @@ a:hover.back-to-top {
 /*****************************/
 /*     20. Media Queries     */
 /*****************************/
+
+@media (max-width: 600px) {
+    .header .text-container {
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+}
+}
 
 @media (min-width: 768px) {
     /* General Styles */ .p-heading {
