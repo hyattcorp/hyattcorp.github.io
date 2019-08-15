@@ -1625,9 +1625,9 @@ a:hover.back-to-top {
 
 @media (min-width: 768px) {
     /* General Styles */ .p-heading {
-        width: 44%;
-        margin-right: auto;
-        margin-left: auto;
+        /* width: 44%; */
+        margin-right: 15px;
+        margin-left: 15px;
     }
 
     /* end of general styles */
@@ -1840,7 +1840,7 @@ a:hover.back-to-top {
     /* end of navigation */
     /* General Styles */
     .p-heading {
-        width: 70%;
+        /* width: 70%; */
     }
 
     /* end of general styles */
@@ -2006,7 +2006,7 @@ a:hover.back-to-top {
         padding: 0.5rem 8rem 0.5rem 8rem;
 	}
 	/* end of navigation *//* General Styles */ .p-heading {
-            width: 70%;
+            /* width: 70%; */
         }
 
         /* end of general styles */
