@@ -1623,6 +1623,14 @@ a:hover.back-to-top {
 }
 }
 
+@media (max-width: 410px) {
+.header .btn-solid-lg {
+margin-left: 0rem;
+margin-right: 0rem;
+font-size: 1.2rem;
+}
+}
+
 @media (min-width: 768px) {
     /* General Styles */ .p-heading {
         /* width: 44%; */
