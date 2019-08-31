@@ -3,7 +3,17 @@
  * @copyright 2016 PixelCog, Inc.
  * @license MIT (https://github.com/pixelcog/parallax.js/blob/master/LICENSE)
  */
+function myFunction(x) {
+  if (x.matches) { // If media query matches
+    document.body.style.backgroundColor = "yellow";
+  } else {
+    var positionx="right";
+  }
+}
 
+var x = window.matchMedia("(max-width: 700px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
 ;(function ( $, window, document, undefined ) {
 
   // Polyfill for requestAnimationFrame

@@ -839,6 +839,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
     position: absolute;
     top: 30%;
     right: 5%;
+    margin-top: 2.5rem;
 }
 
 .header h1 {
@@ -1860,7 +1861,8 @@ font-size: 1.2rem;
     }
 
     .header .text-container {
-        margin-top: 1rem;
+        margin-top: 2.5rem;
+        /* right: 3% */
     }
 
     /* end of header */
@@ -2021,7 +2023,7 @@ font-size: 1.2rem;
         /* Header */
         .header .text-container {
             margin-top: 2.5rem;
-            margin-left: 2.5rem;
+            /* margin-left: 2.5rem; */
         }
 
         .header .image-container {
