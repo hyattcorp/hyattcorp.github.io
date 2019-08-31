@@ -680,6 +680,7 @@ input[type='checkbox'] {
     height: 68px;
     margin-bottom: 1px;
     -webkit-backface-visibility: hidden;
+    transition: all 0.2s;
 }
 
 .navbar-custom .navbar-brand.logo-text {
